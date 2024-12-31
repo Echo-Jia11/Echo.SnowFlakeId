@@ -4,6 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageId>Echo.SnowFlakeId</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>EchoJia</Authors>
+    <Description>个人使用的雪花ID生成器</Description>
+    <PackageProjectUrl>https://github.com/Echo-Jia11/Echo.SnowFlakeId</PackageProjectUrl>
   </PropertyGroup>
-
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
